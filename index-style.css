@@ -1,9 +1,57 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
-body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --subtlegray:#dddddd;
+}
+body{
+    background:var(--subtlegray);
+    font-family:Montserrat, sans-serif;
+    /* font-size:20px; */
+}
+h2{
+    /*color:#B026FF;*/
+    /* color:green; */
+    margin-bottom:-15px;
+    /*text-decoration:underline;*/
+    border-bottom:2px var(--subtlegray) solid;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:Bitter;
+}
+ul{
+    padding-left:16px;
+}
+.container{
+    background:#ffffff;
+    border-radius:25px;
+    box-shadow:10px 10px 25px #757575;
+    padding:75px;
+    margin:75px auto;
+    width:500px
+}
+label{
+    font-weight:bold;
+}
+input, textarea{
+    margin-bottom:1.2em;
+}
+label, input, textarea, button{
+    display:block;
+}
+input[type="checkbox"]{
+    display:inline;
+}
+/* label input{
+    display:inline;
+} */
+.required{
+    color:red;
+}
+.error{
+    color:red;
+    border:1px solid red;
+    background-color:rgb(255, 208, 208);
+    padding:0.5em;
+    border-radius:10px;
+    margin-top:0px;
+    display:inline-block;
 }

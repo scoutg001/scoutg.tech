@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.E.E.S. - Bolts, Excavation, Engineering, and Shipyards</title>
+    <link rel="icon" type="image/x-icon" href="favicon.webp">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="disclaimer-popup" class="popup">
+        <div class="popup-content">
+            <h2>Disclaimer</h2>
+            <p>This website is fictional and created for educational purposes only. B.E.E.S. is not a real company.</p>
+            <div id="close-popup" class="close-popup">I Understand</div>
+        </div>
+    </div> 
+    <header>
+        <div class="logo">
+            <img src="bees-logo.jpg" alt="B.E.E.S. Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to B.E.E.S.</h1>
+            <p>Your trusted partner for space-based engineering and excavation solutions.</p>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>B.E.E.S. specializes in advanced space technology, providing engineering, excavation, and shipbuilding services for a galaxy of possibilities. From asteroid mining to ship repair, our team of experts ensures top-notch solutions for your interstellar needs.</p>
+        </section>
+
+        <section class="cta">
+            <h2>Explore the Stars with B.E.E.S.</h2>
+            <p>Learn more about our cutting-edge services and how we can help you achieve your space exploration goals.</p>
+            <a href="services.html" class="button">Our Services</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 B.E.E.S. - All Rights Reserved.</p>
+    </footer>
+    <script>
+        document.querySelector('.close-popup').addEventListener('click', () => {document.querySelector('.popup').style.display="none";});
+    </script>
+</body>
+</html>

@@ -1,225 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Gianni LaMolinare">
-    <title>Gianni LaMolinare - Resume</title>
-    <style>
-        /* Global Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            color: #333;
-            background-color: #f4f4f9;
-            line-height: 1.6;
-            padding: 20px;
-        }
-
-        /* Resume Container */
-        .resume-container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        /* Header */
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .header h1 {
-            font-size: 28px;
-            margin-bottom: 10px;
-            color: #444;
-        }
-
-        .header p {
-            font-size: 14px;
-            color: #666;
-        }
-
-        .header a {
-            color: #6e8efb;
-            text-decoration: none;
-        }
-
-        .header a:hover {
-            text-decoration: underline;
-        }
-
-        /* Section Headings */
-        h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            color: #5c5c5c;
-            border-bottom: 2px solid #6e8efb;
-            padding-bottom: 5px;
-        }
-
-        h3 {
-            font-size: 16px;
-            margin-bottom: 5px;
-            color: #333;
-        }
-
-        /* Education and Work Experience */
-        .education-item, .job, .certification-item, .volunteer-item {
-            margin-bottom: 20px;
-        }
-
-        p {
-            margin-bottom: 10px;
-            font-size: 14px;
-            color: #555;
-        }
-
-        /* Unordered Lists for Job Responsibilities */
-        ul {
-            padding-left: 20px;
-            margin-bottom: 20px;
-        }
-
-        ul li {
-            font-size: 14px;
-            margin-bottom: 8px;
-            line-height: 1.4;
-        }
-
-        /* Links */
-        a {
-            color: #6e8efb;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Skills Section */
-        .skills p {
-            font-size: 14px;
-            margin-bottom: 5px;
-        }
-
-        .skills strong {
-            color: #333;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .resume-container {
-                padding: 15px;
-            }
-
-            .header h1 {
-                font-size: 24px;
-            }
-
-            h2 {
-                font-size: 18px;
-            }
-
-            h3 {
-                font-size: 14px;
-            }
-
-            p, ul li {
-                font-size: 13px;
-            }
-        }
-    </style>
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+<meta charset="UTF-8">
+<title>GIANNI LAMOLINARE(1) - Resume</title>
+<style>
+  body {
+    font-family: monospace;
+    font-size: 12px;
+    background: #FFF;
+    color: #000;
+    text-align: left;
+    margin: 10px 10px 0px 20px;
+    /*max-width: 900px;
+    margin-left: 0;
+    padding: 1em;*/
+    white-space: pre-wrap;
+  }
+  h1 {
+    text-align: left;
+    border-bottom: 1px solid #555;
+    padding-bottom: .2em;
+    margin-bottom: 1em;
+  }
+  h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #555;
+    padding-bottom: .2em;
+    margin-top: 2em;
+  }
+  a { color: #6cf; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .indent { margin-left: 2em; }
+  footer {
+    border-top: 1px solid #555;
+    margin-top: 3em;
+    padding-top: 1em;
+    font-size: .9em;
+    color: #aaa;
+  }
+  .badge-bar {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+    flex-wrap: wrap;
+  }
+</style>
 </head>
 <body>
+GIANNI LAMOLINARE(1)           Linux User's Manual          GIANNI LAMOLINARE(1)
 
-    <div class="resume-container">
-        <!-- Header Section -->
-        <header class="header">
-            <h1>Gianni LaMolinare</h1>
-            <p>
-                Erie, PA · 
-                <a href="mailto:gianni@scoutg.tech">gianni@scoutg.tech</a> · 
-                412.320.0288 · 
-                <a href="https://www.linkedin.com/in/gianni-lamolinare/" target="_blank">LinkedIn</a> · 
-                <a href="https://scoutg.tech" target="_blank">scoutg.tech</a>
-            </p>
-        </header>
+NAME
+    Gianni LaMolinare - Computer Science & Software Engineering Student
 
-        <!-- Education Section -->
-        <section class="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Gannon University</h3>
-                <p>Erie, PA · Expected Graduation: May 2027</p>
-                <p>Bachelor’s in Computer Science & Software Engineering</p>
-            </div>
-        </section>
+SYNOPSIS
+    gianni [--email <a href="mailto:gianni@scoutg.tech">gianni@scoutg.tech</a>] [--phone 412.320.0288]
+           [--linkedin <a href="https://www.linkedin.com/in/gianni-lamolinare/">linkedin.com/in/gianni-lamolinare</a>]
+           [--website <a href="https://scoutg.tech">scoutg.tech</a>]
 
-        <!-- Work Experience Section -->
-        <section class="work-experience">
-            <h2>Work Experience</h2>
-            <div class="job">
-                <h3>Gannon Makerspace</h3>
-                <p>Erie, PA · Makerspace Technician 2 · January 2024 – Present</p>
-                <ul>
-                    <li>Oversee daily operations of the Makerspace, ensuring smooth functionality, cleanliness, and safety across lab spaces.</li>
-                    <li>Mentor Lab Tech 1s, providing hands-on support and fostering a collaborative learning environment.</li>
-                    <li>Assist faculty and students with research and design projects, improving communication within general and engineering contexts.</li>
-                    <li>Support engineering design projects through collaboration and technical assistance.</li>
-                    <li>Expand knowledge of safe operation of advanced machinery, adapting to evolving technology demands.</li>
-                    <li>Monitor lab conditions and proactively address tasks to improve efficiency, fostering growth in teamwork, communication, and leadership.</li>
-                </ul>
-            </div>
-        </section>
+DESCRIPTION
+    Undergraduate student at Gannon University pursuing a dual degree in
+    Computer Science & Software Engineering. Experienced with IT, programming,
+    and leadership. Works as a Makerspace Technician assisting with research,
+    engineering design projects, and lab operations.
 
-        <!-- Certifications Section -->
-        <section class="certifications">
-            <h2>Certifications</h2>
-            <!--<div class="certification-item">
-                <h3>CompTia A+ Information Technology Certification</h3>
-                <p>Issued by CompTia · August 2024 – August 2027</p>
-                <p>Credential ID: H5G6YYNREFEEQRKC</p>
-            </div>-->
-	    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="cdb2a71f-8ffe-48a3-8a79-65025d3576e2" data-share-badge-host="https://www.credly.com"></div>
-	    <script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
-	    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="63fbc9d9-68c9-4c61-9c4e-af62e3467862" data-share-badge-host="https://www.credly.com"></div>
-	    <script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
-            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1087d431-e817-483e-b2d1-e3f2140a8ad0" data-share-badge-host="https://www.credly.com"></div>
-	    <script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
-	</section>
+EDUCATION
+    Gannon University
+        Erie, PA
+        Bachelor’s in Computer Science & Software Engineering
+        Expected Graduation: May 2027
 
-        <!-- Skills Section -->
-        <section class="skills">
-            <h2>Skills</h2>
-            <p><strong>IT Skills:</strong> Computer Management, Computer Networking, Computer Service, Shell Scripting, Linux</p>
-            <p><strong>Programming Languages:</strong> Java, Python, C++</p>
-        </section>
+EXPERIENCE
+    Gannon Makerspace, Erie PA
+        Senior Makerspace Lab Technician (Aug 2025 – Present)
+            · Lead operations across lab spaces; oversee advanced equipment use.
+            · Mentor and coordinate other technicians.
+        Makerspace Technician II (Aug 2024 – Jul 2025)
+            · Supported faculty and student research/design projects.
+            · Oversaw daily Makerspace operations and safety.
+        Makerspace Technician I (Jan 2024 – Jul 2024)
+            · Assisted in management/maintenance of Makerspace technology
+              and equipment on the 6th and 3rd floors of the I-HACK building.
 
-        <!-- Service / Volunteer Experience Section -->
-        <section class="volunteer-experience">
-            <h2>Service/Volunteer Experience</h2>
-            <div class="volunteer-item">
-                <h3>Scouts BSA</h3>
-                <p>Pittsburgh, PA · August 2016 – December 2022</p>
-                <ul>
-                    <li>Achieved the rank of Eagle Scout, recognized for exceptional service and community involvement.</li>
-                    <li>Served as Assistant Senior Patrol Leader, coordinating activities and projects for a troop of 30 members.</li>
-                    <li>Led an Eagle Scout project focused on landscaping and outdoor service repair, managing planning, budgeting, and execution.</li>
-                    <li>Contributed over 200 hours of community service, enhancing leadership, project management, and team collaboration skills.</li>
-                </ul>
-            </div>
-        </section>
-    </div>
+CERTIFICATIONS
+    CompTIA A+ (Aug 2024 – Sep 2028)
 
+    CompTIA Network+ (Sep 2025 - Sep 2028)
+
+    CompTIA IT Operations Specialist (Sep 2025 - Sep 2028)
+
+SKILLS
+    IT
+        Computer Management, Networking, Service, Shell Scripting, Linux
+    Programming
+        Java, Python, C, C++, HTML, CSS
+
+VOLUNTEER
+    Scouts BSA, Pittsburgh PA (Aug 2016 – Dec 2022)
+        · Eagle Scout rank achieved.
+        · Assistant Senior Patrol Leader for troop of 30.
+        · Led Eagle project: landscaping & outdoor service repair.
+        · 200+ hours of community service.
+
+SEE ALSO
+    website: <a href="https://scoutg.tech">scoutg.tech</a>
+    credly:  <a href="https://www.credly.com/users/gianni-lamolinare">credly.com/users/gianni-lamolinare</a>
+    git:     <a href="https://github.com/scoutg001">github.com/scoutg001</a>
+
+--------------------------------------------------------------------------------
 </body>
+
+<!-- Credly badge bar -->
+<footer>
+  Credly Badges:
+  <div class="badge-bar">
+    <div data-iframe-width="150" data-iframe-height="270"
+         data-share-badge-id="cdb2a71f-8ffe-48a3-8a79-65025d3576e2"
+         data-share-badge-host="https://www.credly.com"></div>
+    <div data-iframe-width="150" data-iframe-height="270"
+         data-share-badge-id="63fbc9d9-68c9-4c61-9c4e-af62e3467862"
+         data-share-badge-host="https://www.credly.com"></div>
+    <div data-iframe-width="150" data-iframe-height="270"
+         data-share-badge-id="1087d431-e817-483e-b2d1-e3f2140a8ad0"
+         data-share-badge-host="https://www.credly.com"></div>
+  </div>
+  <script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+</footer>
 </html>
